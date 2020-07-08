@@ -225,34 +225,6 @@ function initMap() {
            console.log("Lng = " + lng);
          });
 
-    // var rectangles = [];
-    //
-    // for (var i=0; i<7; i++){
-    //   rectangles.push(
-    //     new google.maps.Rectangle({
-    //      bounds: bounds,
-    //      strokeColor: '#FF0000',
-    //      strokeOpacity: 0.8,
-    //      strokeWeight: 2,
-    //      fillColor: '#FF0000',
-    //      fillOpacity: 0.35,
-    //      draggable: true,
-    //      zIndex: 1
-    //    })
-    //   );
-    //
-    //   rectangles[i].setMap(map);
-    //   console.log(i);
-    // };
-    //
-    // for (rectangle of rectangles){
-    //   google.maps.event.addListener(rectangle, 'dragend', function() {
-    //     var lat = rectangle.getBounds().getCenter().lat();
-    //     var lng = rectangle.getBounds().getCenter().lng();
-    //     console.log("Lat =" + lat);
-    //     console.log("Lng = " + lng);
-    //   });
-    // }
     loadMapShapes();
 
 

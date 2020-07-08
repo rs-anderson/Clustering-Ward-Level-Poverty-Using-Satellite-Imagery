@@ -3,6 +3,7 @@
 
 images/
 *.png
+*.txt
 
 # yarn/typescript build junk
 package-lock.json
