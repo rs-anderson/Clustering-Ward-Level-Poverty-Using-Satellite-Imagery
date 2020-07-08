@@ -1,6 +1,7 @@
 # os junk
 .DS_Store
 
+data/
 images/
 *.png
 *.txt
