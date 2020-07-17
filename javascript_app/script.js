@@ -6,37 +6,24 @@ function initMap() {
     mapTypeId: 'satellite'
   });
 
-  // Define the LatLng coordinates for the polygon's path.
-    // var triangleCoords = [
-    //   {lat: -26.48715, lng: 27.8377},
-    //   {lat: -26.48715, lng: 27.8463},
-    //   {lat: -26.49485, lng: 27.8463},
-    //   {lat: -26.49485, lng: 27.8377}
-    // ];
-    //
-    // (-26.479170238999927,
-    var bounds = {
-      north: -26.479170238999927,
-      south: -26.49485,
-      east: 27.8463,
-      west: 27.824467997000056
-    };
-
-    // (-26.479170238999927,
-    //  -26.50463912699996,
-    //  27.87418553400005,
-    //  27.824467997000056)
-    //
-    //  Lat =-26.481095238999934
-    //  Lng = 27.826617997000053
 
     var y_rad = 0.00385
     var x_rad = 0.0043
+    var delta_y = y_rad/16
+    console.log("delta_y =" + delta_y);
 
+    // bounding box around the ward
     var bounds_ward = {
       north: -26.479170238999927,
       south: -26.50463912699996,
       east: 27.87418553400005,
+      west: 27.824467997000056
+    };
+
+    var bounds1_big = {
+      north: -26.479170238999927 + delta_y,
+      south: -26.479170238999927 - 2*y_rad - delta_y,
+      east: 27.824467997000056 + 2*x_rad,
       west: 27.824467997000056
     };
 
@@ -82,20 +69,8 @@ function initMap() {
       west: 27.824467997000056 + 2*x_rad + 2*x_rad + 2*x_rad + 2*x_rad + 2*x_rad
     };
 
-    // // Construct the polygon.
-    // var rectangle1 = new google.maps.Rectangle({
-    //   bounds: bounds,
-    //   strokeColor: '#FF0000',
-    //   strokeOpacity: 0.8,
-    //   strokeWeight: 2,
-    //   fillColor: '#FF0000',
-    //   fillOpacity: 0.35,
-    //   draggable: true,
-    //   zIndex: 1
-    // });
-    // rectangle1.setMap(map);
 
-    rect = new google.maps.Rectangle({
+    rect_ward = new google.maps.Rectangle({
      bounds: bounds_ward,
      strokeColor: '#FF0000',
      strokeOpacity: 0.8,
@@ -105,8 +80,26 @@ function initMap() {
      draggable: false,
      zIndex: 1
    });
-   rect.setMap(map);
+   rect_ward.setMap(map);
 
+   rect_big = new google.maps.Rectangle({
+    bounds: bounds1_big,
+    strokeColor: '#008080',
+    strokeOpacity: 0.8,
+    strokeWeight: 2,
+    fillColor: '#008080',
+    fillOpacity: 0.3,
+    draggable: true,
+    zIndex: 1
+  });
+  rect_big.setMap(map);
+
+  google.maps.event.addListener(rect_big, 'dragend', function() {
+      var lat = rect_big.getBounds().getCenter().lat();
+      var lng = rect_big.getBounds().getCenter().lng();
+      console.log("Lat =" + lat);
+      console.log("Lng = " + lng);
+    });
 
    rect1 = new google.maps.Rectangle({
     bounds: bounds1,
