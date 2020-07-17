@@ -9,7 +9,7 @@ This is the Github repo for our honours project. It is still in progress.
 Reading in the coordinates for the Gauteng wards from the geojson shapefile, and then writing the centers for the images to /data/ward_image_centers.csv. These centers will then be used to extract the images.
 
 **get_images.ipynb**:
-Using /data/ward_image_centers.csv, this notebook then gets two images from Google Static Maps API for each of the center coordinates - one with the ward overlayed in black and one without. These images are stored in /images/ward_*k*/*ij*.png where *k* is the ward number and *ij* are the row and column positions, respectively, of the image in the grid of images from the specific ward (e.g. top left = 00).
+Using /data/ward_image_centers.csv, this notebook then gets two images from Google Static Maps API for each of the center coordinates - one with the ward overlayed in black and one without. These images are stored in /images/ward_*k*/edited/*ij*.png where *k* is the ward number and *ij* are the row and column positions, respectively, of the image in the grid of images from the specific ward (e.g. top left = 00).
 
 
 ## Other Scripts
