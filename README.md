@@ -23,7 +23,7 @@ or something similar depending on your version of Python, and then access the ap
 
 ## Note on Scripts
 
-You will need to get a Google Static Maps API key for both the Javascript API (for the maps visualization) and for the general Static Maps (for requesting images).
+You will need to get a Google Static Maps API key for both the Javascript API (for the maps visualization) and for the general Static Maps API (for requesting images).
 
 ```
 conda activate HonsProjectEnv
