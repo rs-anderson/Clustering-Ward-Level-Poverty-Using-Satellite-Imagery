@@ -2,6 +2,25 @@
 
 This is the Github repo for our honours project. It is still in progress.
 
+## Setup
+
+In order to install the necessary packages, it is recommended to use the file *environment.yml*. To do this, run the following command in the repo: 
+```
+conda env create -f environment.yml
+```
+Then activate the environment *honoursprojectenv* by running the following:
+```
+conda activate honoursprojectenv
+```
+Then make sure you are running a kernel associated with this environment by first running:
+```
+conda install -c anaconda ipykernel
+```
+Then run:
+```
+python -m ipykernel install --user --name=honoursprojectenv
+```
+If you get any import errors, click on the "Kernel" tab at the top of the notebook and change the kernel to the *honoursprojectenv* kernel.
 
 ## Notebooks
 
@@ -25,6 +44,3 @@ or something similar depending on your version of Python, and then access the ap
 
 You will need to get a Google Static Maps API key for both the Javascript API (for the maps visualization) and for the general Static Maps API (for requesting images).
 
-```
-conda activate HonsProjectEnv
-```
