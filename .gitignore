@@ -3,7 +3,6 @@
 
 data/
 images/
-*.png
 *.txt
 
 # yarn/typescript build junk
