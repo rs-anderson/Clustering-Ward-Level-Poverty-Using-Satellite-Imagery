@@ -1,6 +1,7 @@
 # os junk
 .DS_Store
 
+model_weights/
 data/
 images/
 *.txt
