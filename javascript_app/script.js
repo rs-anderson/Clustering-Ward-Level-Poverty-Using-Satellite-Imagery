@@ -226,5 +226,5 @@ function initMap() {
 /** Loads the state boundary polygons from a GeoJSON source. */
 function loadMapShapes() {
   // load US state outline polygons from a GeoJSON file
-  map.data.loadGeoJson('../electoral wards for jhb.json', { idPropertyName: 'WARDNO' });
+  map.data.loadGeoJson('../electoral wards for jhb (simple).json', { idPropertyName: 'WARDNO' });
 }

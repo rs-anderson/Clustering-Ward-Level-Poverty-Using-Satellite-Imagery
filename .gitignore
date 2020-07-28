@@ -1,10 +1,11 @@
 # os junk
 .DS_Store
 
-model_weights/
+models/
 data/
 images/
 *.txt
+*.csv
 
 # yarn/typescript build junk
 package-lock.json
