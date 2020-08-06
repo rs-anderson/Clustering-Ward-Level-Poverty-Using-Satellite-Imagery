@@ -21,7 +21,7 @@ str(gau)
 plot(gau['cluster'])
 
 
-mapKey <- "AIzaSyDLoj9wkzUiTr2TYsyCYphA6Nu1pDJIFnU"
+mapKey <- "YOUR KEY"
 
 google_map(key = mapKey) %>%
   add_polygons(data = gau, polyline = "geometry", fill_colour = 'cluster', fill_opacity = 0.9)
