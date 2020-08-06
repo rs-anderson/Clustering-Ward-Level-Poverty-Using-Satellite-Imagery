@@ -7,6 +7,8 @@ images/
 *.txt
 *.csv
 
+*.Rhistory
+
 # yarn/typescript build junk
 package-lock.json
 *.tsbuildinfo
