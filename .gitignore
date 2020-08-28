@@ -1,6 +1,11 @@
 # os junk
 .DS_Store
 
+images_old/
+javascript_app/
+visualizing_clusters/
+old_shapefiles/
+activation_maps/
 models/
 data/
 images/

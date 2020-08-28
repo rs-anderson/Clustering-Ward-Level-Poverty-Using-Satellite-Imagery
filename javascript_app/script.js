@@ -12,12 +12,13 @@ function initMap() {
     var delta_y = y_rad/16
     console.log("delta_y =" + delta_y);
 
+
     // bounding box around the ward
     var bounds_ward = {
-      north: -26.479170238999927,
-      south: -26.50463912699996,
-      east: 27.87418553400005,
-      west: 27.824467997000056
+      north: -26.49781500199998,
+      south: -26.649913003999927,
+      east: 28.35229669000006,
+      west: 28.17946999700007
     };
 
     var bounds1_big = {
@@ -226,5 +227,5 @@ function initMap() {
 /** Loads the state boundary polygons from a GeoJSON source. */
 function loadMapShapes() {
   // load US state outline polygons from a GeoJSON file
-  map.data.loadGeoJson('../electoral wards for jhb (simple).json', { idPropertyName: 'WARDNO' });
+  map.data.loadGeoJson('../Mogale City_shp.json', { idPropertyName: 'WARDNO' });
 }
