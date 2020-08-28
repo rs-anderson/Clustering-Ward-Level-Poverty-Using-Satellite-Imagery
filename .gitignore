@@ -1,6 +1,8 @@
 # os junk
 .DS_Store
 
+shapefile/Gau_shp.json
+shapefile/SA_municipal_wards_2011.json
 images_old/
 javascript_app/
 visualizing_clusters/
