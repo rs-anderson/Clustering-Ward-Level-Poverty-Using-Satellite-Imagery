@@ -8,7 +8,6 @@ data/shapefiles/Shapefiles.zip
 models/
 images/
 *.txt
-*.csv
 
 *.Rhistory
 
