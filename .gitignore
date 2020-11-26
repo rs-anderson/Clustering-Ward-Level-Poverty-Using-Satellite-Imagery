@@ -11,6 +11,7 @@ activation_maps/
 models/
 data/
 images/
+clustering/
 *.txt
 *.csv
 
