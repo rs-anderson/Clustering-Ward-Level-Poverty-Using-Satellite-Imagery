@@ -1,15 +1,11 @@
 # os junk
 .DS_Store
 
-shapefile/Gau_shp.json
-shapefile/SA_municipal_wards_2011.json
-images_old/
-javascript_app/
-visualizing_clusters/
-old_shapefiles/
-activation_maps/
+data/shapefiles/Gau_shp.json
+data/shapefiles/SA_municipal_wards_2011.json
+data/shapefiles/Shapefiles.zip
+
 models/
-data/
 images/
 *.txt
 *.csv
