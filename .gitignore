@@ -4,6 +4,8 @@
 data/shapefiles/Gau_shp.json
 data/shapefiles/SA_municipal_wards_2011.json
 data/shapefiles/Shapefiles.zip
+data/image_centers
+data/images
 
 models/
 images/
