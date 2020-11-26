@@ -70,7 +70,7 @@ plot(shp[, 'cluster'], main=cluster_f)
 # dev.off()
 
 
-mapKey <- "AIzaSyDLoj9wkzUiTr2TYsyCYphA6Nu1pDJIFnU"
+mapKey <- "YOUR_API_KEY"
 
 google_map(key = mapKey) %>%
   add_polygons(data = shp, polyline = "geometry", stroke_opacity = 0.5, fill_opacity = 0.5, fill_colour = 'Munic', legend=T)
