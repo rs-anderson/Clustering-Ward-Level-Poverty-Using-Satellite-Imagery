@@ -1,0 +1,509 @@
+,ward_no.,Municipality,Cluster
+0,1,Emfuleni,2
+1,2,Emfuleni,1
+2,3,Emfuleni,1
+3,4,Emfuleni,2
+4,5,Emfuleni,-1
+5,6,Emfuleni,1
+6,7,Emfuleni,2
+7,8,Emfuleni,2
+8,9,Emfuleni,1
+9,10,Emfuleni,1
+10,11,Emfuleni,2
+11,12,Emfuleni,2
+12,13,Emfuleni,1
+13,14,Emfuleni,-1
+14,15,Emfuleni,4
+15,16,Emfuleni,2
+16,17,Emfuleni,2
+17,18,Emfuleni,1
+18,19,Emfuleni,2
+19,20,Emfuleni,1
+20,21,Emfuleni,2
+21,22,Emfuleni,1
+22,23,Emfuleni,2
+23,24,Emfuleni,1
+24,25,Emfuleni,2
+25,26,Emfuleni,1
+26,27,Emfuleni,2
+27,28,Emfuleni,1
+28,29,Emfuleni,1
+29,30,Emfuleni,1
+30,31,Emfuleni,1
+31,32,Emfuleni,1
+32,33,Emfuleni,1
+33,34,Emfuleni,2
+34,35,Emfuleni,2
+35,36,Emfuleni,-1
+36,37,Emfuleni,1
+37,38,Emfuleni,1
+38,39,Emfuleni,1
+39,40,Emfuleni,2
+40,41,Emfuleni,2
+41,42,Emfuleni,1
+42,43,Emfuleni,1
+43,44,Emfuleni,1
+44,45,Emfuleni,2
+45,1,Merafong City,2
+46,2,Merafong City,2
+47,3,Merafong City,2
+48,4,Merafong City,2
+49,5,Merafong City,2
+50,6,Merafong City,2
+51,7,Merafong City,2
+52,8,Merafong City,2
+53,9,Merafong City,2
+54,10,Merafong City,2
+55,11,Merafong City,2
+56,12,Merafong City,2
+57,13,Merafong City,2
+58,14,Merafong City,2
+59,15,Merafong City,2
+60,16,Merafong City,2
+61,17,Merafong City,2
+62,18,Merafong City,2
+63,19,Merafong City,-1
+64,20,Merafong City,2
+65,21,Merafong City,2
+66,22,Merafong City,2
+67,23,Merafong City,2
+68,24,Merafong City,2
+69,25,Merafong City,-1
+70,26,Merafong City,1
+71,27,Merafong City,2
+72,28,Merafong City,2
+73,1,Midvaal,2
+74,2,Midvaal,2
+75,3,Midvaal,2
+76,4,Midvaal,2
+77,5,Midvaal,2
+78,6,Midvaal,2
+79,7,Midvaal,2
+80,8,Midvaal,2
+81,9,Midvaal,4
+82,10,Midvaal,4
+83,11,Midvaal,2
+84,12,Midvaal,2
+85,13,Midvaal,2
+86,14,Midvaal,2
+87,1,Lesedi,2
+88,2,Lesedi,2
+89,3,Lesedi,2
+90,4,Lesedi,2
+91,5,Lesedi,2
+92,6,Lesedi,2
+93,7,Lesedi,2
+94,8,Lesedi,2
+95,9,Lesedi,2
+96,10,Lesedi,2
+97,11,Lesedi,2
+98,12,Lesedi,2
+99,13,Lesedi,2
+100,1,Mogale City,2
+101,2,Mogale City,2
+102,3,Mogale City,2
+103,4,Mogale City,2
+104,5,Mogale City,1
+105,6,Mogale City,2
+106,7,Mogale City,1
+107,8,Mogale City,1
+108,9,Mogale City,4
+109,10,Mogale City,1
+110,11,Mogale City,-1
+111,12,Mogale City,1
+112,13,Mogale City,1
+113,14,Mogale City,2
+114,15,Mogale City,1
+115,16,Mogale City,2
+116,17,Mogale City,-1
+117,18,Mogale City,0
+118,19,Mogale City,2
+119,20,Mogale City,1
+120,21,Mogale City,0
+121,22,Mogale City,0
+122,23,Mogale City,2
+123,24,Mogale City,1
+124,25,Mogale City,2
+125,26,Mogale City,-1
+126,27,Mogale City,2
+127,28,Mogale City,2
+128,29,Mogale City,2
+129,30,Mogale City,2
+130,31,Mogale City,2
+131,32,Mogale City,2
+132,33,Mogale City,2
+133,34,Mogale City,2
+134,1,Ekurhuleni,-1
+135,2,Ekurhuleni,2
+136,3,Ekurhuleni,2
+137,4,Ekurhuleni,2
+138,5,Ekurhuleni,2
+139,6,Ekurhuleni,2
+140,7,Ekurhuleni,2
+141,8,Ekurhuleni,2
+142,9,Ekurhuleni,2
+143,10,Ekurhuleni,2
+144,11,Ekurhuleni,2
+145,12,Ekurhuleni,4
+146,13,Ekurhuleni,4
+147,14,Ekurhuleni,2
+148,15,Ekurhuleni,3
+149,16,Ekurhuleni,3
+150,17,Ekurhuleni,4
+151,18,Ekurhuleni,3
+152,19,Ekurhuleni,3
+153,20,Ekurhuleni,3
+154,21,Ekurhuleni,3
+155,22,Ekurhuleni,1
+156,23,Ekurhuleni,4
+157,24,Ekurhuleni,2
+158,25,Ekurhuleni,2
+159,26,Ekurhuleni,1
+160,27,Ekurhuleni,0
+161,28,Ekurhuleni,3
+162,29,Ekurhuleni,4
+163,30,Ekurhuleni,1
+164,31,Ekurhuleni,2
+165,32,Ekurhuleni,4
+166,33,Ekurhuleni,4
+167,34,Ekurhuleni,2
+168,35,Ekurhuleni,4
+169,36,Ekurhuleni,4
+170,37,Ekurhuleni,3
+171,38,Ekurhuleni,3
+172,39,Ekurhuleni,4
+173,40,Ekurhuleni,2
+174,41,Ekurhuleni,2
+175,42,Ekurhuleni,2
+176,43,Ekurhuleni,-1
+177,44,Ekurhuleni,2
+178,45,Ekurhuleni,2
+179,46,Ekurhuleni,2
+180,47,Ekurhuleni,2
+181,48,Ekurhuleni,2
+182,49,Ekurhuleni,2
+183,50,Ekurhuleni,2
+184,51,Ekurhuleni,2
+185,52,Ekurhuleni,2
+186,53,Ekurhuleni,2
+187,54,Ekurhuleni,2
+188,55,Ekurhuleni,2
+189,56,Ekurhuleni,2
+190,57,Ekurhuleni,2
+191,58,Ekurhuleni,2
+192,59,Ekurhuleni,2
+193,60,Ekurhuleni,2
+194,61,Ekurhuleni,2
+195,62,Ekurhuleni,2
+196,63,Ekurhuleni,2
+197,64,Ekurhuleni,2
+198,65,Ekurhuleni,2
+199,66,Ekurhuleni,1
+200,67,Ekurhuleni,2
+201,68,Ekurhuleni,2
+202,69,Ekurhuleni,1
+203,70,Ekurhuleni,1
+204,71,Ekurhuleni,1
+205,72,Ekurhuleni,2
+206,73,Ekurhuleni,-1
+207,74,Ekurhuleni,2
+208,75,Ekurhuleni,2
+209,76,Ekurhuleni,2
+210,77,Ekurhuleni,1
+211,78,Ekurhuleni,2
+212,79,Ekurhuleni,1
+213,80,Ekurhuleni,1
+214,81,Ekurhuleni,1
+215,82,Ekurhuleni,1
+216,83,Ekurhuleni,1
+217,84,Ekurhuleni,1
+218,85,Ekurhuleni,1
+219,86,Ekurhuleni,1
+220,87,Ekurhuleni,2
+221,88,Ekurhuleni,2
+222,89,Ekurhuleni,2
+223,90,Ekurhuleni,2
+224,91,Ekurhuleni,-1
+225,92,Ekurhuleni,4
+226,93,Ekurhuleni,2
+227,94,Ekurhuleni,4
+228,95,Ekurhuleni,2
+229,96,Ekurhuleni,1
+230,97,Ekurhuleni,2
+231,98,Ekurhuleni,2
+232,99,Ekurhuleni,2
+233,100,Ekurhuleni,2
+234,101,Ekurhuleni,2
+235,1,Randfontein,2
+236,2,Randfontein,2
+237,3,Randfontein,2
+238,4,Randfontein,1
+239,5,Randfontein,4
+240,6,Randfontein,3
+241,7,Randfontein,3
+242,8,Randfontein,-1
+243,9,Randfontein,2
+244,10,Randfontein,2
+245,11,Randfontein,2
+246,12,Randfontein,2
+247,13,Randfontein,2
+248,14,Randfontein,2
+249,15,Randfontein,2
+250,16,Randfontein,2
+251,17,Randfontein,2
+252,18,Randfontein,2
+253,19,Randfontein,2
+254,20,Randfontein,2
+255,21,Randfontein,2
+256,22,Randfontein,2
+257,1,City of Tshwane,1
+258,2,City of Tshwane,1
+259,3,City of Tshwane,-1
+260,4,City of Tshwane,2
+261,5,City of Tshwane,1
+262,6,City of Tshwane,1
+263,7,City of Tshwane,2
+264,8,City of Tshwane,1
+265,9,City of Tshwane,1
+266,10,City of Tshwane,1
+267,11,City of Tshwane,1
+268,12,City of Tshwane,1
+269,13,City of Tshwane,1
+270,14,City of Tshwane,1
+271,15,City of Tshwane,1
+272,16,City of Tshwane,1
+273,17,City of Tshwane,1
+274,18,City of Tshwane,1
+275,19,City of Tshwane,1
+276,20,City of Tshwane,1
+277,21,City of Tshwane,1
+278,22,City of Tshwane,1
+279,23,City of Tshwane,1
+280,24,City of Tshwane,-1
+281,25,City of Tshwane,1
+282,26,City of Tshwane,1
+283,27,City of Tshwane,1
+284,28,City of Tshwane,1
+285,29,City of Tshwane,1
+286,30,City of Tshwane,-1
+287,31,City of Tshwane,-1
+288,32,City of Tshwane,1
+289,33,City of Tshwane,1
+290,34,City of Tshwane,1
+291,35,City of Tshwane,1
+292,36,City of Tshwane,1
+293,37,City of Tshwane,-1
+294,38,City of Tshwane,2
+295,39,City of Tshwane,1
+296,40,City of Tshwane,1
+297,41,City of Tshwane,1
+298,42,City of Tshwane,0
+299,43,City of Tshwane,1
+300,44,City of Tshwane,0
+301,45,City of Tshwane,0
+302,46,City of Tshwane,0
+303,47,City of Tshwane,0
+304,48,City of Tshwane,2
+305,49,City of Tshwane,2
+306,50,City of Tshwane,-1
+307,51,City of Tshwane,1
+308,52,City of Tshwane,1
+309,53,City of Tshwane,1
+310,54,City of Tshwane,1
+311,55,City of Tshwane,1
+312,56,City of Tshwane,0
+313,57,City of Tshwane,0
+314,58,City of Tshwane,1
+315,59,City of Tshwane,2
+316,60,City of Tshwane,1
+317,61,City of Tshwane,2
+318,62,City of Tshwane,1
+319,63,City of Tshwane,1
+320,64,City of Tshwane,-1
+321,65,City of Tshwane,2
+322,66,City of Tshwane,2
+323,67,City of Tshwane,1
+324,68,City of Tshwane,1
+325,69,City of Tshwane,1
+326,70,City of Tshwane,-1
+327,71,City of Tshwane,1
+328,72,City of Tshwane,1
+329,73,City of Tshwane,2
+330,74,City of Tshwane,1
+331,75,City of Tshwane,1
+332,76,City of Tshwane,1
+333,77,City of Tshwane,4
+334,78,City of Tshwane,4
+335,79,City of Tshwane,2
+336,80,City of Tshwane,-1
+337,81,City of Tshwane,-1
+338,82,City of Tshwane,0
+339,83,City of Tshwane,0
+340,84,City of Tshwane,1
+341,85,City of Tshwane,0
+342,86,City of Tshwane,-1
+343,87,City of Tshwane,2
+344,88,City of Tshwane,1
+345,89,City of Tshwane,1
+346,90,City of Tshwane,2
+347,91,City of Tshwane,2
+348,92,City of Tshwane,1
+349,93,City of Tshwane,2
+350,94,City of Tshwane,1
+351,95,City of Tshwane,1
+352,96,City of Tshwane,2
+353,97,City of Tshwane,2
+354,98,City of Tshwane,-1
+355,99,City of Tshwane,2
+356,100,City of Tshwane,2
+357,101,City of Tshwane,2
+358,102,City of Tshwane,2
+359,103,City of Tshwane,2
+360,104,City of Tshwane,-1
+361,105,City of Tshwane,2
+362,1,City of Johannesburg,1
+363,2,City of Johannesburg,1
+364,3,City of Johannesburg,1
+365,4,City of Johannesburg,1
+366,5,City of Johannesburg,2
+367,6,City of Johannesburg,1
+368,7,City of Johannesburg,1
+369,8,City of Johannesburg,2
+370,9,City of Johannesburg,-1
+371,10,City of Johannesburg,-1
+372,11,City of Johannesburg,1
+373,12,City of Johannesburg,1
+374,13,City of Johannesburg,1
+375,14,City of Johannesburg,1
+376,15,City of Johannesburg,1
+377,16,City of Johannesburg,1
+378,17,City of Johannesburg,1
+379,18,City of Johannesburg,1
+380,19,City of Johannesburg,1
+381,20,City of Johannesburg,1
+382,21,City of Johannesburg,1
+383,22,City of Johannesburg,1
+384,23,City of Johannesburg,2
+385,24,City of Johannesburg,4
+386,25,City of Johannesburg,1
+387,26,City of Johannesburg,2
+388,27,City of Johannesburg,2
+389,28,City of Johannesburg,2
+390,29,City of Johannesburg,2
+391,30,City of Johannesburg,1
+392,31,City of Johannesburg,1
+393,32,City of Johannesburg,-1
+394,33,City of Johannesburg,1
+395,34,City of Johannesburg,1
+396,35,City of Johannesburg,1
+397,36,City of Johannesburg,1
+398,37,City of Johannesburg,1
+399,38,City of Johannesburg,1
+400,39,City of Johannesburg,1
+401,40,City of Johannesburg,1
+402,41,City of Johannesburg,1
+403,42,City of Johannesburg,1
+404,43,City of Johannesburg,1
+405,44,City of Johannesburg,1
+406,45,City of Johannesburg,1
+407,46,City of Johannesburg,1
+408,47,City of Johannesburg,1
+409,48,City of Johannesburg,1
+410,49,City of Johannesburg,1
+411,50,City of Johannesburg,1
+412,51,City of Johannesburg,1
+413,52,City of Johannesburg,1
+414,53,City of Johannesburg,2
+415,54,City of Johannesburg,3
+416,55,City of Johannesburg,1
+417,56,City of Johannesburg,1
+418,57,City of Johannesburg,4
+419,58,City of Johannesburg,3
+420,59,City of Johannesburg,2
+421,60,City of Johannesburg,3
+422,61,City of Johannesburg,-1
+423,62,City of Johannesburg,2
+424,63,City of Johannesburg,2
+425,64,City of Johannesburg,3
+426,65,City of Johannesburg,4
+427,66,City of Johannesburg,3
+428,67,City of Johannesburg,3
+429,68,City of Johannesburg,4
+430,69,City of Johannesburg,3
+431,70,City of Johannesburg,4
+432,71,City of Johannesburg,-1
+433,72,City of Johannesburg,3
+434,73,City of Johannesburg,1
+435,74,City of Johannesburg,3
+436,75,City of Johannesburg,2
+437,76,City of Johannesburg,2
+438,77,City of Johannesburg,2
+439,78,City of Johannesburg,2
+440,79,City of Johannesburg,2
+441,80,City of Johannesburg,2
+442,81,City of Johannesburg,3
+443,82,City of Johannesburg,3
+444,83,City of Johannesburg,0
+445,84,City of Johannesburg,1
+446,85,City of Johannesburg,0
+447,86,City of Johannesburg,3
+448,87,City of Johannesburg,3
+449,88,City of Johannesburg,3
+450,89,City of Johannesburg,3
+451,90,City of Johannesburg,3
+452,91,City of Johannesburg,3
+453,92,City of Johannesburg,4
+454,93,City of Johannesburg,4
+455,94,City of Johannesburg,-1
+456,95,City of Johannesburg,2
+457,96,City of Johannesburg,2
+458,97,City of Johannesburg,-1
+459,98,City of Johannesburg,3
+460,99,City of Johannesburg,3
+461,100,City of Johannesburg,-1
+462,101,City of Johannesburg,3
+463,102,City of Johannesburg,3
+464,103,City of Johannesburg,3
+465,104,City of Johannesburg,3
+466,105,City of Johannesburg,2
+467,106,City of Johannesburg,3
+468,107,City of Johannesburg,2
+469,108,City of Johannesburg,2
+470,109,City of Johannesburg,3
+471,110,City of Johannesburg,4
+472,111,City of Johannesburg,2
+473,112,City of Johannesburg,-1
+474,113,City of Johannesburg,-1
+475,114,City of Johannesburg,2
+476,115,City of Johannesburg,3
+477,116,City of Johannesburg,2
+478,117,City of Johannesburg,3
+479,118,City of Johannesburg,3
+480,119,City of Johannesburg,2
+481,120,City of Johannesburg,1
+482,121,City of Johannesburg,1
+483,122,City of Johannesburg,2
+484,123,City of Johannesburg,-1
+485,124,City of Johannesburg,-1
+486,125,City of Johannesburg,2
+487,126,City of Johannesburg,3
+488,127,City of Johannesburg,2
+489,128,City of Johannesburg,1
+490,129,City of Johannesburg,1
+491,130,City of Johannesburg,1
+492,1,Westonaria,2
+493,2,Westonaria,2
+494,3,Westonaria,-1
+495,4,Westonaria,3
+496,5,Westonaria,2
+497,6,Westonaria,2
+498,7,Westonaria,2
+499,8,Westonaria,2
+500,9,Westonaria,2
+501,10,Westonaria,2
+502,11,Westonaria,2
+503,12,Westonaria,2
+504,13,Westonaria,2
+505,14,Westonaria,2
+506,15,Westonaria,2
+507,16,Westonaria,2
