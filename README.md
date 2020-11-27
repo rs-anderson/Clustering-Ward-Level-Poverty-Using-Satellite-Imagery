@@ -1,6 +1,14 @@
-# Clustering-of-Ward-Level-Deprivation-through-the-use-of-Satellite-Imagery
+# Clustering of Ward Level Poverty through the use of Satellite-Imagery
 
-This is the Github repo for our honours project. It is still in progress.
+This is the Github repo for the paper *Clustering Ward-Level Poverty Using Satellite Imagery* by Ryan Anderson and Andomei Smit. The aim of this research is to cluster Gauteng wards based on their level of poverty and, as a result, create a poverty map. Furthermore, the clustering will purely be based on publicly available data - assessing the potential for census-less poverty mapping. Since high-resolution satellite imagery is publicly-available, the wards will be clustered from the information that can be extracted from this imagery.
+
+The general methodology followed in the paper is as follows:
+* **Step 1:** Obtain a set of satellite images for each of the Gauteng wards
+* **Step 2:** Extract a feature set for the wards from the satellite imagery using a pre-trained CNN
+* **Step 3:** The dimensions of the features are reduced and then clustered using Kmeans and HDBSCAN
+
+
+See the paper at <code>papers/Honours_Project_2020.pdf</code> for more information.
 
 ## Setup
 
@@ -22,13 +30,28 @@ python -m ipykernel install --user --name=honoursprojectenv
 ```
 If you get any import errors, click on the "Kernel" tab at the top of the notebook and change the kernel to the *honoursprojectenv* kernel.
 
-## Notebooks
+Unfortunately, for the R scripts, you will have to install the necessary packages yourself.
 
-**get_image_centers.ipynb**:
+## Scripts
+
+### feature_extraction
+
+<code>get_ward_boundaries.ipynb</code>:
 Reading in the coordinates for the Gauteng wards from the geojson shapefile, and then writing the centers for the images to /data/ward_image_centers.csv. These centers will then be used to extract the images.
 
-**get_images.ipynb**:
+<code>get_image_centers.ipynb</code>:
+Reading in the coordinates for the Gauteng wards from the geojson shapefile, and then writing the centers for the images to /data/ward_image_centers.csv. These centers will then be used to extract the images.
+
+<code>get_images.ipynb</code>:
 Using /data/ward_image_centers.csv, this notebook then gets two images from Google Static Maps API for each of the center coordinates - one with the ward overlayed in black and one without. These images are stored in /images/ward_*k*/edited/*ij*.png where *k* is the ward number and *ij* are the row and column positions, respectively, of the image in the grid of images from the specific ward (e.g. top left = 00).
+
+<code>get_features.ipynb</code>:
+Reading in the coordinates for the Gauteng wards from the geojson shapefile, and then writing the centers for the images to /data/ward_image_centers.csv. These centers will then be used to extract the images.
+
+### clustering
+
+
+### visualisation_validation
 
 
 ## Other Scripts
