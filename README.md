@@ -51,7 +51,7 @@ Using the centers from <code>get_image_centers.ipynb</code>, this script request
 <code>get_features.ipynb</code>:
 This script implements the methodology used to map each plain satellite image, with the aid of its corresponding mask, to a set of features. This involves modifiying the VGG11 model to include "convolutional masking layer". An illustration of the modified CNN can be seen below:
 
-![alt text](https://github.com/ANDRYA005/Clustering-of-Ward-Level-Deprivation-through-the-use-of-Satellite-Imagery/blob/master/figures_for_readme/modified_VGG_condensed.png)
+![alt text](https://github.com/ANDRYA005/Clustering-of-Ward-Level-Deprivation-through-the-use-of-Satellite-Imagery/blob/master/figures_for_readme/vgg_modified_final.png)
 
 
 ### clustering
