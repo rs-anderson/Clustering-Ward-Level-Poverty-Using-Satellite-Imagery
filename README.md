@@ -5,8 +5,7 @@ This is the Github repo for the paper *Clustering Ward-Level Poverty Using Satel
 The general methodology followed in the paper is as follows:
 * **Step 1:** Obtain a set of satellite images for each of the Gauteng wards
 * **Step 2:** Extract a feature set for the wards from the satellite imagery using a pre-trained CNN
-* **Step 3:** The dimensions of the features are reduced and then clustered using Kmeans and HDBSCAN
-
+* **Step 3:** The dimensions of the features are reduced and then clustered using K-means and HDBSCAN
 
 See the paper at <code>papers/Honours_Project_2020.pdf</code> for more information.
 
@@ -37,33 +36,51 @@ Unfortunately, for the R scripts, you will have to install the necessary package
 ### feature_extraction
 
 <code>get_ward_boundaries.ipynb</code>:
-Reading in the coordinates for the Gauteng wards from the geojson shapefile, and then writing the centers for the images to /data/ward_image_centers.csv. These centers will then be used to extract the images.
+Reads in the shapefile for all of the wards in South Africa and outputs the wards for each of the Gauteng municipalities.
 
 <code>get_image_centers.ipynb</code>:
-Reading in the coordinates for the Gauteng wards from the geojson shapefile, and then writing the centers for the images to /data/ward_image_centers.csv. These centers will then be used to extract the images.
+Reads in the coordinates for the Gauteng wards from the shapefiles, and computes the centers for the images that need to be extracted. This is done by sampling coordinates from a grid of images that cover the ward of interest. For an illustration, ssee the figure below:
+
+INSERT GRID PICTURE
 
 <code>get_images.ipynb</code>:
-Using /data/ward_image_centers.csv, this notebook then gets two images from Google Static Maps API for each of the center coordinates - one with the ward overlayed in black and one without. These images are stored in /images/ward_*k*/edited/*ij*.png where *k* is the ward number and *ij* are the row and column positions, respectively, of the image in the grid of images from the specific ward (e.g. top left = 00).
+Using the centers from <code>get_image_centers.ipynb</code>, this script requests three images from Google Static Maps API for each of the center coordinates - one with the ward overlayed in black and green, and one without. For each ward, the output of the algorithm is a number of image-pairs comprised of (1) a plain satellite image and (2) an image mask, with the white region of the mask outlining the area of the satellite image that falls within the ward of interest. An example can be seen below:
+
+INSERT IMAGE PAIR
 
 <code>get_features.ipynb</code>:
-Reading in the coordinates for the Gauteng wards from the geojson shapefile, and then writing the centers for the images to /data/ward_image_centers.csv. These centers will then be used to extract the images.
+This script implements the methodology used to map each plain satellite image, with the aid of its corresponding mask, to a set of features. This involves modifiying the VGG11 model to include "convolutional masking layer". An illustration of the modified CNN can be seen below:
+
+INSERT IMAGE OF MODIFIED CNN
 
 ### clustering
+
+<code>pca.ipynb</code>:
+INSERT EXPLANATION HERE.
+
+<code>kmeans_clustering.ipynb</code>:
+INSERT EXPLANATION HERE.
+
+<code>hdbscan_clustering.ipynb</code>:
+INSERT EXPLANATION HERE.
+
+<code>umap_clustering.ipynb</code>:
+INSERT EXPLANATION HERE.
 
 
 ### visualisation_validation
 
+<code>visualizing_clusters.R</code>:
+INSERT EXPLANATION HERE.
 
-## Other Scripts
+<code>interpolating_sampi.R</code>:
+INSERT EXPLANATION HERE.
 
-**Map Visualization**:
-Javascript app using the Google Static Maps Javascript API for visualizing images to be extracted. The scripts can be found in /javascript_app/. To run the javascript app, it is recommended to run a local Python server using:
-```
-python3 -m http.server
-```
-or something similar depending on your version of Python, and then access the app on the browser at the generated local server address.
+<code>validating_clusters.R</code>:
+INSERT EXPLANATION HERE.
+
 
 ## Note on Scripts
 
-You will need to get a Google Static Maps API key for both the Javascript API (for the maps visualization) and for the general Static Maps API (for requesting images).
+You will need to get a Google Static Maps API key for for requesting images. For more information, see https://developers.google.com/maps/documentation/maps-static/overview.
 
