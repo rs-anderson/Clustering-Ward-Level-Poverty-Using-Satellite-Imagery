@@ -63,7 +63,7 @@ This script applies PCA to the 508x4096 feature set in order to reduce the dimen
 This script applies the K-means algorithm to 6PCs and 18PCs. It used the Davies Bouldin (DB) Index, Silhouette score and Elbow method to determine K, the number of clusters to use.
 
 <code>hdbscan_clustering.ipynb</code>:
-This script applies the HDBSCAN algorithm to the 508 wards of Guateng. The DBCV index is used to determine the best cluster solution.
+This script applies the HDBSCAN algorithm to 6PCs and 18PCs. The DBCV index is used to determine the best cluster solution.
 
 <code>umap_clustering.ipynb</code>:
 This script explores whether implementing UMAP (instead of PCA) improves the cluster solutions obtained by HDBSCAN and K-means.
