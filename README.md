@@ -89,6 +89,7 @@ Unfortunately, it is apparent that the clusters seem to merely cluster nightligh
 
 When comparing the two maps, it is evident that the clusters are simply grouping together the wards with little-to-no nightlight intensity and the other wards.
 
+For future work, it would be interesting to see the explanatory power of the features when fitting a regression model to poverty-related data. 
 
 ## Note on Scripts
 
