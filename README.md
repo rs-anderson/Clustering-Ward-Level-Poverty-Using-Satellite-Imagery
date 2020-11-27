@@ -81,13 +81,16 @@ INSERT EXPLANATION HERE.
 INSERT EXPLANATION HERE.
 
 
+## Results
+
+We will insert some summaries of the results here.
+
+
 ## Note on Scripts
 
 You will need to get a Google Static Maps API key for for requesting images. For more information, see https://developers.google.com/maps/documentation/maps-static/overview.
 
-## Results
 
-We will insert some summaries of the results here.
 
 
 
