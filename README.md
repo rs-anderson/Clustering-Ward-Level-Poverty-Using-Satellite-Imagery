@@ -97,5 +97,5 @@ You will need to get a Google Static Maps API key for for requesting images. For
 
 ## References
 
-The methodology of the project was inspired by Jean et al. (https://github.com/nealjean/predicting-poverty) but the pre-trained CNN was trained by Mather (https://github.com/jmather625/predicting-poverty-replication). See the paper for the remainder of the resources.
+The methodology was inspired by Jean et al. (https://github.com/nealjean/predicting-poverty) but the pre-trained CNN was trained by Mather (https://github.com/jmather625/predicting-poverty-replication). See the paper for the remainder of the resources.
 
