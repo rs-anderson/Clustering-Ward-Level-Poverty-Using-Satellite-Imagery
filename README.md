@@ -57,22 +57,22 @@ This script implements the methodology used to map each plain satellite image, w
 ### clustering
 
 <code>pca.ipynb</code>:
-INSERT EXPLANATION HERE.
+This script applies PCA to the 508x4096 feature set in order to reduce the dimensions. It finds the number of principal components (PCs) to use for the remainder of the project as the first 6 (6PCs) and 18 (18PCs) principal components.
 
 <code>kmeans_clustering.ipynb</code>:
-INSERT EXPLANATION HERE.
+This script applies the K-means algorithm to 6PCs and 18PCs. It used the Davies Bouldin (DB) Index, Silhouette score and Elbow method to determine K, the number of clusters to use.
 
 <code>hdbscan_clustering.ipynb</code>:
-INSERT EXPLANATION HERE.
+This script applies the HDBSCAN algorithm to the 508 wards of Guateng. The DBCV index is used to determine the best cluster solution.
 
 <code>umap_clustering.ipynb</code>:
-INSERT EXPLANATION HERE.
+This script explores whether implementing UMAP (instead of PCA) improves the cluster solutions obtained by HDBSCAN and K-means.
 
 
 ### visualisation_validation
 
 <code>visualizing_clusters.R</code>:
-INSERT EXPLANATION HERE.
+This script is for the visualization of the cluster solutions obtained. Furthermore, googleway can be used to navigate the map of Gauteng to investigate the specific areas within each cluster.
 
 <code>interpolating_sampi.R</code>:
 INSERT EXPLANATION HERE.
