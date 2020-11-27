@@ -1,6 +1,6 @@
 # Clustering of Ward Level Poverty through the use of Satellite-Imagery
 
-This is the Github repo for the paper *Clustering Ward-Level Poverty Using Satellite Imagery* by Ryan Anderson and Andomei Smit. The aim of this research is to cluster Gauteng wards based on their level of poverty and, as a result, create a poverty map. Furthermore, the clustering will purely be based on publicly available data - assessing the potential for census-less poverty mapping. Since high-resolution satellite imagery is publicly-available, the wards will be clustered from the information that can be extracted from this imagery.
+This is the Github repo for the paper *Clustering Ward-Level Poverty Using Satellite Imagery* by Ryan Anderson and Andomei Smit. The aim of this research is to cluster Gauteng wards based on their level of poverty and, as a result, create a poverty map. Furthermore, the clustering is purely based on publicly available data - assessing the potential for poverty mapping without the use of census data. Since high-resolution satellite imagery is publicly-available, the wards will be clustered from the information that can be extracted from this imagery.
 
 The general methodology followed in the paper is as follows:
 * **Step 1:** Obtain a set of satellite images for each of the Gauteng wards
