@@ -85,7 +85,7 @@ INSERT EXPLANATION HERE.
 
 Unfortunately, it is apparent that the clusters seem to merely cluster nightlight intensity and NOT poverty. For illustrative purposes, see the map of the cluster solution for K-means with K=2 below:
 
-<img src="./figures_for_readme/nightlights_vs_clusters.png" alt="grid" width="800"/>
+<img src="./figures_for_readme/nightlights_vs_cluster.png" alt="grid" width="800"/>
 
 When comparing the two maps, it is evident that the clusters are simply grouping together the wards with little-to-no nightlight intensity and the other wards.
 
@@ -95,6 +95,7 @@ When comparing the two maps, it is evident that the clusters are simply grouping
 You will need to get a Google Static Maps API key for for requesting images. For more information, see https://developers.google.com/maps/documentation/maps-static/overview.
 
 
+## References
 
-
+The methodology of the project was inspired by Jean et al. (https://github.com/nealjean/predicting-poverty) but the pre-trained CNN was trained by Mather (https://github.com/jmather625/predicting-poverty-replication). See the paper for the remainder of the resources.
 
