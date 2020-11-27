@@ -41,17 +41,17 @@ Reads in the shapefile for all of the wards in South Africa and outputs the ward
 <code>get_image_centers.ipynb</code>:
 Reads in the coordinates for the Gauteng wards from the shapefiles, and computes the centers for the images that need to be extracted. This is done by sampling coordinates from a grid of images that cover the ward of interest. For an illustration, see the figure below:
 
-![alt text](https://github.com/ANDRYA005/Clustering-of-Ward-Level-Deprivation-through-the-use-of-Satellite-Imagery/blob/master/figures_for_readme/image_extraction_1(b).png)
+<img src="./figures_for_readme/image_extraction_1(b).png" alt="grid" width="600"/>
 
 <code>get_images.ipynb</code>:
 Using the centers from <code>get_image_centers.ipynb</code>, this script requests three images from Google Static Maps API for each of the center coordinates - one with the ward overlayed in black and green, and one without. For each ward, the output of the algorithm is a number of image-pairs comprised of (1) a plain satellite image and (2) an image mask, with the white region of the mask outlining the area of the satellite image that falls within the ward of interest. An example can be seen below:
 
-![alt text](https://github.com/ANDRYA005/Clustering-of-Ward-Level-Deprivation-through-the-use-of-Satellite-Imagery/blob/master/figures_for_readme/final_image_pair.png)
+<img src="./figures_for_readme/final_image_pair.png" alt="grid" width="600"/>
 
 <code>get_features.ipynb</code>:
 This script implements the methodology used to map each plain satellite image, with the aid of its corresponding mask, to a set of features. This involves modifiying the VGG11 model to include "convolutional masking layer". An illustration of the modified CNN can be seen below:
 
-![alt text](https://github.com/ANDRYA005/Clustering-of-Ward-Level-Deprivation-through-the-use-of-Satellite-Imagery/blob/master/figures_for_readme/vgg_modified_final.png)
+<img src="./figures_for_readme/vgg_modified_final.png" alt="grid" width="600"/>
 
 
 ### clustering
