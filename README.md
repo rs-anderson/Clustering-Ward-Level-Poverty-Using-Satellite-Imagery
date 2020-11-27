@@ -83,7 +83,11 @@ INSERT EXPLANATION HERE.
 
 ## Results
 
-We will insert some summaries of the results here.
+Unfortunately, it is apparent that the clusters seem to merely cluster nightlight intensity and NOT poverty. For illustrative purposes, see the map of the cluster solution for K-means with K=2 below:
+
+<img src="./figures_for_readme/nightlights_vs_clusters.png" alt="grid" width="800"/>
+
+When comparing the two maps, it is evident that the clusters are simply grouping together the wards with little-to-no nightlight intensity and the other wards.
 
 
 ## Note on Scripts
