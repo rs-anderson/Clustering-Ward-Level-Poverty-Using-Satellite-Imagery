@@ -63,7 +63,7 @@ plot(shp[, "Munic"], main="", key.pos=4, key.width = lcm(5.4))
 
 
 # name of cluster file
-cluster_file_name = "HDBSCAN_clusters_UMAP.csv"
+cluster_file_name = "HDBSCAN_clusters_18.csv"
 
 # reading in clusters assigned to each ward
 df_clusters = read.csv(paste0(CLUSTER_DIR, cluster_file_name))
