@@ -5,7 +5,7 @@ This is the Github repo for the paper *Clustering Ward-Level Poverty Using Satel
 The general methodology followed in the paper is as follows:
 * **Step 1:** Obtain a set of satellite images for each of the Gauteng wards
 * **Step 2:** Extract a feature set for the wards from the satellite imagery using a pre-trained CNN
-* **Step 3:** The dimensions of the features are reduced and then clustered using K-means and HDBSCAN
+* **Step 3:** Reduce the dimensions of the features and then cluster using K-means and HDBSCAN
 
 See the paper at <code>papers/Honours_Project_2020.pdf</code> for more information.
 
