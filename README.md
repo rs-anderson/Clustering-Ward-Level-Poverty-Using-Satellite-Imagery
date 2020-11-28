@@ -33,6 +33,8 @@ Unfortunately, for the R scripts, you will have to install the necessary package
 
 ## Scripts
 
+The scripts can be separated into three sections: (1) feature extraction; (2) clustering; and (3) visualisation and validation. They are presented below in the order in which they should be executed.
+
 ### feature_extraction
 
 <code>get_ward_boundaries.ipynb</code>:
@@ -89,14 +91,16 @@ Unfortunately, it is apparent that the clusters seem to merely cluster nightligh
 
 When comparing the two maps, it is evident that the clusters are simply grouping together the wards with little-to-no nightlight intensity and the other wards.
 
-For future work, it would be interesting to see the explanatory power of the features when fitting a regression model to poverty-related data. 
+## Future Work
+
+It would be interesting to see the explanatory power of the features when fitting a regression model to poverty-related data. Thus, feel free to use the full Gauteng feature set or any of the municipal feature sets (found at <code>data/extracted_features/</code>) for your own work. 
 
 ## Note on Scripts
 
-You will need to get a Google Static Maps API key for for requesting images. For more information, see https://developers.google.com/maps/documentation/maps-static/overview.
+You will need to get a Google Static Maps API key for requesting images. For more information, see https://developers.google.com/maps/documentation/maps-static/overview.
 
 
 ## References
 
-The methodology was inspired by Jean et al. (https://github.com/nealjean/predicting-poverty) but the pre-trained CNN was trained by Mather (https://github.com/jmather625/predicting-poverty-replication). See the paper for the remainder of the resources.
+The methodology was inspired by Jean et al. (https://github.com/nealjean/predicting-poverty) but the pre-trained CNN was trained by Mather (https://github.com/jmather625/predicting-poverty-replication). See our paper for the remainder of the references used.
 
