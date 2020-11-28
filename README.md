@@ -84,7 +84,7 @@ INSERT EXPLANATION HERE.
 
 ## Using the Scripts
 
-The results seen in the paper can be replicated by running all of the above scripts. However, the **feature_extraction** scripts used to obtain the Gauteng feature set requires substantial run-time (downloading and processing thousands of images). So you don't have to endure this, we have provided the feature sets extracted in <code>data/extracted_features/</code>. Thus, the **clustering** and **visualisation_validation** scripts can be run without running the **feature_extraction** scripts.
+The results seen in the paper can be replicated by running all of the above scripts. However, the **feature_extraction** scripts used to obtain the Gauteng feature set requires substantial run-time (downloading and processing thousands of images). To save you time, we have provided the feature sets extracted in <code>data/extracted_features/</code>. Thus, the **clustering** and **visualisation_validation** scripts can be run without running the **feature_extraction** scripts.
 
 ## Results
 
