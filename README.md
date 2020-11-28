@@ -82,9 +82,15 @@ INSERT EXPLANATION HERE.
 <code>validating_clusters.R</code>:
 INSERT EXPLANATION HERE.
 
-## Using the Scripts
+
+
+## Note on Scripts
 
 The results seen in the paper can be replicated by running all of the above scripts. However, the **feature_extraction** scripts used to obtain the Gauteng feature set requires substantial run-time (downloading and processing thousands of images). To save you time, we have provided the feature sets extracted in <code>data/extracted_features/</code>. Thus, the **clustering** and **visualisation_validation** scripts can be run without running the **feature_extraction** scripts.
+
+We have not made the SAMPI data that we used available. This data can be provided by the <a href="https://www.gcro.ac.za/">GCRO</a> on request.
+
+You will need to get a Google Static Maps API key for requesting images. For more information, see https://developers.google.com/maps/documentation/maps-static/overview.
 
 ## Results
 
@@ -97,12 +103,6 @@ When comparing the two maps, it is evident that the clusters are simply distingu
 ## Future Work
 
 It would be interesting to see the explanatory power of the features when fitting a regression model to poverty-related data. Thus, feel free to use the full Gauteng feature set or any of the municipal feature sets (found at <code>data/extracted_features/</code>) for your own work.
-
-We have not made the SAMPI data that we used available. This data can be provided by the <a href="https://www.gcro.ac.za/">GCRO</a> on request.
-
-## Note on Scripts
-
-You will need to get a Google Static Maps API key for requesting images. For more information, see https://developers.google.com/maps/documentation/maps-static/overview.
 
 
 ## References
