@@ -82,6 +82,9 @@ INSERT EXPLANATION HERE.
 <code>validating_clusters.R</code>:
 INSERT EXPLANATION HERE.
 
+## Using the Scripts
+
+The results seen in the paper can be replicated by running all of the above scripts. However, as this requires the downloading of thousands of images, we have also provided the feature sets extracted in <code>data/extracted_features/</code>. Thus, the **clustering** and **visualisation_validation** scripts can be run without running the **feature_extraction** scripts.
 
 ## Results
 
