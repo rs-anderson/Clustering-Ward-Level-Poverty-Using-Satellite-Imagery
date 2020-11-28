@@ -51,7 +51,7 @@ Using the centers from <code>get_image_centers.ipynb</code>, this script request
 <img src="./figures_for_readme/final_image_pair.png" alt="grid" width="400"/>
 
 <code>get_features.ipynb</code>:
-This script implements the methodology used to map each plain satellite image, with the aid of its corresponding mask, to a set of features. This involves modifiying the VGG11 model to include "convolutional masking layer". An illustration of the modified CNN can be seen below:
+This script implements the methodology used to map each plain satellite image, with the aid of its corresponding mask, to a set of features. This involves modifiying the VGG11 model to include a "convolutional masking layer". An illustration of the modified CNN can be seen below:
 
 <img src="./figures_for_readme/vgg_modified_final.png" alt="grid" width="800"/>
 
