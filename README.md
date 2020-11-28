@@ -93,7 +93,9 @@ When comparing the two maps, it is evident that the clusters are simply distingu
 
 ## Future Work
 
-It would be interesting to see the explanatory power of the features when fitting a regression model to poverty-related data. Thus, feel free to use the full Gauteng feature set or any of the municipal feature sets (found at <code>data/extracted_features/</code>) for your own work. However, the SAMPI has not been made available. This data can be provided by the <a href="https://www.gcro.ac.za/">GCRO</a> on request.
+It would be interesting to see the explanatory power of the features when fitting a regression model to poverty-related data. Thus, feel free to use the full Gauteng feature set or any of the municipal feature sets (found at <code>data/extracted_features/</code>) for your own work.
+
+We have not made the SAMPI data that we used available. This data can be provided by the <a href="https://www.gcro.ac.za/">GCRO</a> on request.
 
 ## Note on Scripts
 
