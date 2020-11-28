@@ -95,7 +95,7 @@ We have not made the SAMPI data that we used available. This data can be provide
 
 ## Results
 
-Unfortunately, it is apparent that the clusters seem to merely cluster nightlight intensity and NOT poverty. For illustrative purposes, see the map of the cluster solution for K-means with K=2 below:
+Unfortunately, it is apparent that the clusters seem to merely cluster nightlight intensity and NOT poverty. For illustrative purposes, see the map of the cluster solution for K-means with K=2 (right) and the nighlight intensity of Gauteng (left) below:
 
 <img src="./figures_for_readme/nightlights_vs_cluster.png" alt="grid" width="800"/>
 
