@@ -50,6 +50,8 @@ Using the centers from <code>get_image_centers.ipynb</code>, this script request
 
 <img src="./figures_for_readme/final_image_pair.png" alt="grid" width="400"/>
 
+A <a href="https://developers.google.com/maps/documentation/maps-static/overview">Google Static Maps API</a> key is needed to request the images.
+
 <code>get_features.ipynb</code>:
 This script implements the methodology used to map each plain satellite image, with the aid of its corresponding mask, to a set of features. This involves modifiying the VGG11 model to include a "convolutional masking layer". An illustration of the modified CNN can be seen below:
 
@@ -73,8 +75,9 @@ This script explores whether implementing UMAP (instead of PCA) improves the clu
 
 ### visualisation_validation
 
-<code>visualizing_clusters.R</code>:
-This script is for the visualization of the cluster solutions obtained. Furthermore, googleway can be used to navigate the map of Gauteng to investigate the specific areas within each cluster.
+<code>visualising_clusters.R</code>:
+This script is for the visualisation of the cluster solutions obtained. Furthermore, googleway can be used to navigate the map of Gauteng to investigate the specific areas within each cluster. A <a href="https://developers.google.com/maps/documentation/maps-static/overview">Google Static Maps API</a> key is needed to view the interactive map, however, you are able to visualise the cluster solutions on a static map without a key.
+
 
 <code>interpolating_sampi.R</code>:
 INSERT EXPLANATION HERE.
@@ -89,8 +92,6 @@ INSERT EXPLANATION HERE.
 The results seen in the paper can be replicated by running all of the above scripts. However, the **feature_extraction** scripts used to obtain the Gauteng feature set requires substantial run-time (downloading and processing thousands of images). To save you time, we have provided the feature sets extracted in <code>data/extracted_features/</code>. Thus, the **clustering** and **visualisation_validation** scripts can be run without running the **feature_extraction** scripts.
 
 We have not made the SAMPI data that we used available. This data can be provided by the <a href="https://www.gcro.ac.za/">GCRO</a> on request.
-
-You will need to get a Google Static Maps API key for requesting images. For more information, see https://developers.google.com/maps/documentation/maps-static/overview.
 
 ## Results
 
