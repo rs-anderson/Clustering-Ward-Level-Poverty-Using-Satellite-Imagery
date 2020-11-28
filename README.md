@@ -93,7 +93,7 @@ When comparing the two maps, it is evident that the clusters are simply distingu
 
 ## Future Work
 
-It would be interesting to see the explanatory power of the features when fitting a regression model to poverty-related data. Thus, feel free to use the full Gauteng feature set or any of the municipal feature sets (found at <code>data/extracted_features/</code>) for your own work. However, the SAMPI has not been made available. This data can be provided by the GCRO (https://www.gcro.ac.za/) on request.
+It would be interesting to see the explanatory power of the features when fitting a regression model to poverty-related data. Thus, feel free to use the full Gauteng feature set or any of the municipal feature sets (found at <code>data/extracted_features/</code>) for your own work. However, the SAMPI has not been made available. This data can be provided by the <a href="https://www.gcro.ac.za/">GCRO</a> on request.
 
 ## Note on Scripts
 
@@ -102,5 +102,5 @@ You will need to get a Google Static Maps API key for requesting images. For mor
 
 ## References
 
-The methodology was inspired by Jean et al. (https://github.com/nealjean/predicting-poverty) but the pre-trained CNN was trained by Mather (https://github.com/jmather625/predicting-poverty-replication). See our paper for the remainder of the references used.
+The methodology was inspired by <a href="https://github.com/nealjean/predicting-poverty">Jean et al.</a> but the pre-trained CNN was trained by <a href="https://github.com/jmather625/predicting-poverty-replication">Mather</a>. See our paper for the remainder of the references used.
 
