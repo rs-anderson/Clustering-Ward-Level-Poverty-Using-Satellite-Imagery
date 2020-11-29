@@ -99,11 +99,11 @@ Unfortunately, it is apparent that the clusters seem to merely cluster nightligh
 
 <img src="./figures_for_readme/nightlights_vs_cluster.png" alt="grid" width="800"/>
 
-When comparing the two maps, it is evident that the clusters are simply distinguishing the wards with little-to-no nightlights from the others.
+When comparing the two maps, it is evident that the clusters are simply distinguishing the wards with little-to-no nightlights from the others. Since clustering nightlights does not correspond to clustering poverty (see the *External Validation* Chapter of the paper), the clusters are not useful for poverty mapping.
 
 ## Future Work
 
-It would be interesting to see the explanatory power of the features when fitting a regression model to poverty-related data. Thus, feel free to use the full Gauteng feature set or any of the municipal feature sets (found at <code>data/extracted_features/</code>) for your own work.
+It would be interesting to see the explanatory power of the features when fitting a regression model to poverty-related data. Perhaps there exists a linear or non-linear mapping from the features to the poverty data that the clustering algorithms can't identify. Thus, feel free to use the full Gauteng feature set or any of the municipal feature sets (found at <code>data/extracted_features/</code>) for your own work.
 
 
 ## References
