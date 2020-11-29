@@ -11,7 +11,7 @@ See the paper at <code>papers/Honours_Project_2020.pdf</code> for more informati
 
 ## Setup
 
-In order to install the necessary packages, it is recommended to use the file *environment.yml*. To do this, run the following command in the repo: 
+In order to install the necessary packages, it is recommended to use the file *environment.yml*. To do this, install <a href="https://www.anaconda.com/">Anaconda</a>, then run the following command in the repo: 
 ```
 conda env create -f environment.yml
 ```
