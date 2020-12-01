@@ -57,6 +57,8 @@ This script implements the methodology used to map each plain satellite image, w
 
 <img src="./figures_for_readme/vgg_modified_final.png" alt="grid" width="800"/>
 
+Information relating to where the pre-trained model can be downloaded is available in <a href="https://github.com/jmather625/predicting-poverty-replication">Mather</a>'s repo.
+
 
 ### clustering
 
