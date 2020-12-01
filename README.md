@@ -80,7 +80,7 @@ This script is for the visualisation of the cluster solutions obtained. Furtherm
 
 
 <code>interpolating_sampi.R</code>:
-This script fills in the missing SAMPI values by using inverse distance weighting to interpolate the missing values.
+This script interpolates the missing SAMPI values using inverse distance weighting.
 
 <code>validating_clusters.R</code>:
 This script performs an external validation of the cluster allocations obtained by K-means and HDBSCAN. It investigates the distribution of the SAMPI values first and bases the remainder of the validation analysis on the fifth root. Thereafter boxplots are created to investigate the distribution of SAMPI values within each cluster and the separability between clusters.
