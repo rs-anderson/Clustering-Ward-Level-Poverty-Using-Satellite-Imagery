@@ -97,7 +97,7 @@ Unfortunately, it is apparent that the clusters seem to merely cluster nightligh
 
 <img src="./figures_for_readme/nightlights_vs_cluster.png" alt="grid" width="800"/>
 
-When comparing the two maps, it is evident that the clusters are simply distinguishing the wards with little-to-no nightlights from the others. Since clustering nightlights does not correspond to clustering poverty (see the *External Validation* Chapter of the paper), the clusters are not useful for poverty mapping.
+When comparing the two maps, it is evident that the clusters are simply distinguishing the wards with little-to-no nightlights from the others. Since clustering nightlights does not correspond to clustering poverty (see the *External Validation* sections in the paper), the clusters are not useful for poverty mapping.
 
 ## Future Work
 
