@@ -7,7 +7,7 @@ The general methodology followed in the paper is as follows:
 * **Step 2:** Extract a feature set for the wards from the satellite imagery using a pre-trained CNN
 * **Step 3:** Reduce the dimensions of the features and then cluster using K-means and HDBSCAN
 
-See the paper at <code>papers/Honours_Project_2020.pdf</code> for more information.
+See the paper at <code>paper/Honours_Project_2020.pdf</code> for more information.
 
 ## Setup
 
